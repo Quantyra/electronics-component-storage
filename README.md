@@ -61,6 +61,8 @@ Ordinary printed plastic is not claimed to provide ESD shielding. Keep sensitive
 - [Build and validation](docs/build-and-validation.md), [mesh validation results](reports/geometry-checks.json), [manifest](manifest.json), [SHA256SUMS](SHA256SUMS).
 - Original self-contained [OpenSCAD](cad/storage.scad); [actual-mesh preview scene](cad/preview.scad). No firmware or G-code included.
 - Hardware source, CAD, STLs, documentation, renders, build and validation helpers: [CERN-OHL-S-2.0](LICENSE). Commercial use is permitted under its conditions. [Separate paid qX / qXcellerate licensing guide](docs/licensing.md); inquiry grants no rights.
-- [Attribution](ATTRIBUTION.md), [citation](CITATION.cff). No DOI assigned or requested.
+- [Attribution](ATTRIBUTION.md), [citation](CITATION.cff). Cite the [v1.0.0 archive DOI](https://doi.org/10.5281/zenodo.23634471); the [concept DOI](https://doi.org/10.5281/zenodo.23634470) covers all versions.
 
 Source Location: https://github.com/Quantyra/electronics-component-storage
+
+The [verified Zenodo record](https://zenodo.org/records/23634471) ([record API](https://zenodo.org/api/records/23634471)) archives the exact GitHub v1.0.0 release ZIP: 727,700 bytes, all 39 tagged files verified, SHA256 `a8a555cdc065f1eff7f2333b778acaf5407b32a3b8e9ee035be45090b4c9f89b`. Its immutable source is commit [`1e9ae7a9a759ee0fc2413a03018a9c719e88ab74`](https://github.com/Quantyra/electronics-component-storage/tree/1e9ae7a9a759ee0fc2413a03018a9c719e88ab74), tree `a515a3a39477d8491a8fb0d4db034715784064cc`. Subsequent main-branch metadata updates, including these DOI notices, are outside that tagged archive; the v1.0.0 tag and ZIP remain unchanged. This was a manual API deposit; automatic GitHub-Zenodo integration is not enabled or promised.

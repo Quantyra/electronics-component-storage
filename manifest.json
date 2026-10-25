@@ -15,6 +15,11 @@
       "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f"
     },
     {
+      "path": ".zenodo.json",
+      "bytes": 2139,
+      "sha256": "7f112b5991077f30f7508b3832aeb3f15e59683dc31f096d9ee376f9228c88e3"
+    },
+    {
       "path": "ATTRIBUTION.md",
       "bytes": 901,
       "sha256": "ee014f879289e38aa37b00cf9eed08cbd199e740082b8ea7baffde1509755e60"
@@ -31,8 +36,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 650,
-      "sha256": "df386543450034a8bfa98d90b35c4052e08e0c7a435ffdce1b2d095e5b31551d"
+      "bytes": 1059,
+      "sha256": "74f5a78991860c75525473a0ce857fb0030dc64b6a17103fff7f07f0df28d6ca"
     },
     {
       "path": "docs/build-and-validation.md",
@@ -86,8 +91,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6237,
-      "sha256": "0ac5849de7745c95a37be6aa26c71228c3bca814187745eff5b52b5dc7cb2f53"
+      "bytes": 7118,
+      "sha256": "14cc558b5cb6dbe9578a2e704551fd0a1ec7c18822b3aaa6842b2a4839e9e424"
     },
     {
       "path": "reports/geometry-checks.json",
@@ -186,8 +191,8 @@
     },
     {
       "path": "tools/verify_package.py",
-      "bytes": 4845,
-      "sha256": "e7584fbb4e2e081629f652a948a8ba44029bd4da5d2f85a743ba0b79903964a6"
+      "bytes": 6308,
+      "sha256": "dc2bef08d15607c47a8a22a1c1a7b18011ba926f8938509ee1cfe000360a19ab"
     }
   ]
 }

@@ -45,8 +45,29 @@ for f in all_files:
             check(not im.getexif(),'Unexpected image EXIF: '+key(f))
             metadata=json.dumps(im.info,default=str)
             for pattern in patterns: check(not re.search(pattern,metadata),'Private image metadata: '+key(f))
-check('doi:' not in (ROOT/'CITATION.cff').read_text().lower(),'Unexpected DOI field')
-check('CERN-OHL-S-2.0' in (ROOT/'CITATION.cff').read_text(),'Missing CFF license')
+VERSION_DOI = '10.5281/zenodo.23634471'
+CONCEPT_DOI = '10.5281/zenodo.23634470'
+citation=(ROOT/'CITATION.cff').read_text(encoding='utf-8')
+check(bool(re.search(r'^doi: "'+re.escape(VERSION_DOI)+r'"$',citation,re.M)),
+      'Missing or incorrect published version DOI')
+check(set(re.findall(r'^    value: "([^"]+)"$',citation,re.M))=={VERSION_DOI,CONCEPT_DOI},
+      'Missing or incorrect version/concept citation identifiers')
+check('version: "v1.0.0"' in citation and 'subsequent main-branch metadata updates' in citation,
+      'Missing release version or archive citation boundary')
+check('license: CERN-OHL-S-2.0' in citation,'Missing CFF license')
+zenodo=json.loads((ROOT/'.zenodo.json').read_text(encoding='utf-8'))
+check(zenodo.get('doi')==VERSION_DOI and zenodo.get('version')=='v1.0.0',
+      'Incorrect Zenodo DOI/version metadata')
+check(zenodo.get('title')=='Quantyra electronics component storage' and
+      zenodo.get('creators')==[{'name':'Fredriksen, Daniel Eric','affiliation':'Quantyra'}] and
+      zenodo.get('publication_date')=='2026-10-24' and
+      zenodo.get('license')=='cern-ohl-s-2.0' and zenodo.get('upload_type')=='dataset',
+      'Incorrect published Zenodo title/creator/date/license/type')
+check({'identifier':CONCEPT_DOI,'relation':'isVersionOf','scheme':'doi'} in
+      zenodo.get('related_identifiers',[]),'Missing Zenodo concept DOI relationship')
+readme=(ROOT/'README.md').read_text(encoding='utf-8')
+check(all('https://doi.org/'+doi in readme for doi in (VERSION_DOI,CONCEPT_DOI)) and
+      'outside that tagged archive' in readme,'Missing README DOI/archive boundary')
 items=[dict(path=key(f),bytes=f.stat().st_size,sha256=digest(f)) for f in all_files
        if f.name not in {'manifest.json','SHA256SUMS'}]
 if errors:
@@ -66,4 +87,4 @@ else:
     check((ROOT/'SHA256SUMS').read_text()==expected,'SHA256SUMS inventory/bytes mismatch')
 if errors:
     print('\n'.join(errors));sys.exit(1)
-print('PASS: exact 12 meshes, license, inventory, hashes, local links and publication hygiene')
+print('PASS: exact 12 meshes, license, inventory, hashes, local links, published DOI metadata and publication hygiene')

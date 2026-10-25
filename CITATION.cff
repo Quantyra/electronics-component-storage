@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite the version and exact public source commit used. No DOI assigned."
+message: "Please cite the v1.0.0 archive DOI 10.5281/zenodo.23634471. It identifies the exact tagged archive, not subsequent main-branch metadata updates."
 title: "Quantyra electronics component storage"
 type: dataset
 version: "v1.0.0"
@@ -12,3 +12,11 @@ repository-code: "https://github.com/Quantyra/electronics-component-storage"
 url: "https://github.com/Quantyra/electronics-component-storage"
 license: CERN-OHL-S-2.0
 abstract: "Editable OpenSCAD and 12 STL meshes for sliding component cases and fixed-bay cabinets. Bench organization; physical fit, capacity, warping and load untested."
+doi: "10.5281/zenodo.23634471"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23634471"
+    description: "Version DOI for the exact v1.0.0 archive at source commit 1e9ae7a9a759ee0fc2413a03018a9c719e88ab74; preferred release citation."
+  - type: doi
+    value: "10.5281/zenodo.23634470"
+    description: "Concept DOI for all versions."

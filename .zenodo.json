@@ -1,0 +1,44 @@
+{
+  "title": "Quantyra electronics component storage",
+  "publication_date": "2026-10-24",
+  "description": "<p>Parametric sliding-lid cases and cabinet racks for electronics components, with four case bodies, three lid widths and five rack layouts. This exact v1.0.0 archive contains twelve STL meshes, editable OpenSCAD, assembly and printing guidance, CAD previews, validation helpers and checksums. Intended for a nominal 220 x 220 x 250 mm printer volume, including the Ender-3 V3 SE.</p><p>Physical fit, capacity, warping, stability and load are untested. The lid is free-sliding without the optional external M2 x 6 mm keeper screw. No firmware or G-code are included. Bench organization only; no optical or quantum performance claim.</p><p>Released under CERN-OHL-S-2.0. A separate paid non-copyleft qX / qXcellerate license may be requested at info@qxcellerate.com and requires an authorized written agreement; an inquiry grants no additional rights. Open-source contact: info@quantyra.org. Source Location: https://github.com/Quantyra/electronics-component-storage. Exact source commit: 1e9ae7a9a759ee0fc2413a03018a9c719e88ab74.</p>",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Fredriksen, Daniel Eric",
+      "affiliation": "Quantyra"
+    }
+  ],
+  "keywords": [
+    "electronics storage",
+    "3D printing",
+    "OpenSCAD",
+    "open hardware"
+  ],
+  "version": "v1.0.0",
+  "doi": "10.5281/zenodo.23634471",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Quantyra/electronics-component-storage/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/Quantyra/electronics-component-storage/releases/tag/v1.0.0",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/Quantyra/photonic-quantum-computing-framework",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23634470",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "upload_type": "dataset",
+  "license": "cern-ohl-s-2.0"
+}
