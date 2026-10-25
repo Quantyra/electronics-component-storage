@@ -1,0 +1,1803 @@
+{
+  "version": "v1.0.0",
+  "intended_printer": "Ender-3 V3 SE; nominal 220x220x250 mm",
+  "physical_status": "Physical fit, capacity, warping and load untested",
+  "clearance_definition": "0.30 mm normal to each rail mating face, parametric",
+  "source_regeneration_tested": true,
+  "dimensions": {
+    "1x1": {
+      "outer_mm": [
+        24,
+        100,
+        20
+      ],
+      "rectangular_cavity_mm": [
+        20,
+        93.2,
+        14.8
+      ],
+      "recommended_max_loaded_envelope_mm": [
+        17,
+        92.2,
+        13.8
+      ],
+      "lid_mm": [
+        21.20001,
+        97.4,
+        1.59999
+      ],
+      "label_mm": [
+        18,
+        7
+      ],
+      "measured_center_cavity_spans_mm": [
+        20.0,
+        93.2,
+        14.8
+      ]
+    },
+    "2x1": {
+      "outer_mm": [
+        50,
+        100,
+        20
+      ],
+      "rectangular_cavity_mm": [
+        46,
+        93.2,
+        14.8
+      ],
+      "recommended_max_loaded_envelope_mm": [
+        43,
+        92.2,
+        13.8
+      ],
+      "lid_mm": [
+        47.20001,
+        97.4,
+        1.59999
+      ],
+      "label_mm": [
+        44,
+        7
+      ],
+      "measured_center_cavity_spans_mm": [
+        46.0,
+        93.19999999999999,
+        14.799999999999999
+      ]
+    },
+    "2x2": {
+      "outer_mm": [
+        50,
+        100,
+        42
+      ],
+      "rectangular_cavity_mm": [
+        46,
+        93.2,
+        36.8
+      ],
+      "recommended_max_loaded_envelope_mm": [
+        43,
+        92.2,
+        35.8
+      ],
+      "lid_mm": [
+        47.20001,
+        97.4,
+        1.59999
+      ],
+      "label_mm": [
+        44,
+        7
+      ],
+      "measured_center_cavity_spans_mm": [
+        46.0,
+        93.2,
+        36.8
+      ]
+    },
+    "3x3": {
+      "outer_mm": [
+        76,
+        100,
+        64
+      ],
+      "rectangular_cavity_mm": [
+        72,
+        93.2,
+        58.8
+      ],
+      "recommended_max_loaded_envelope_mm": [
+        69,
+        92.2,
+        57.8
+      ],
+      "lid_mm": [
+        73.20001,
+        97.4,
+        1.59999
+      ],
+      "label_mm": [
+        70,
+        7
+      ],
+      "measured_center_cavity_spans_mm": [
+        72.0,
+        93.20000000000002,
+        58.79999999999999
+      ]
+    }
+  },
+  "racks": {
+    "test_2x2": {
+      "use_outer_mm": [
+        54.8,
+        102.4,
+        46.8
+      ],
+      "print_outer_mm": [
+        54.8,
+        46.8,
+        102.4
+      ],
+      "cases": 4,
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          54.8,
+          46.8,
+          102.4
+        ]
+      ],
+      "back_print_z_mm": [
+        0,
+        2
+      ],
+      "openings_print_direction": "+Z",
+      "bay_opening_mm": [
+        24.8,
+        100.4,
+        20.8
+      ],
+      "nominal_side_clearance_mm": 0.4
+    },
+    "narrow_36": {
+      "use_outer_mm": [
+        158.8,
+        102.4,
+        134.8
+      ],
+      "print_outer_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "cases": 36,
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "back_print_z_mm": [
+        0,
+        2
+      ],
+      "openings_print_direction": "+Z",
+      "bay_opening_mm": [
+        24.8,
+        100.4,
+        20.8
+      ],
+      "nominal_side_clearance_mm": 0.4
+    },
+    "short_18": {
+      "use_outer_mm": [
+        158.8,
+        102.4,
+        134.8
+      ],
+      "print_outer_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "cases": 18,
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "back_print_z_mm": [
+        0,
+        2
+      ],
+      "openings_print_direction": "+Z",
+      "bay_opening_mm": [
+        50.8,
+        100.4,
+        20.8
+      ],
+      "nominal_side_clearance_mm": 0.4
+    },
+    "medium_9": {
+      "use_outer_mm": [
+        158.8,
+        102.4,
+        134.8
+      ],
+      "print_outer_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "cases": 9,
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "back_print_z_mm": [
+        0,
+        2
+      ],
+      "openings_print_direction": "+Z",
+      "bay_opening_mm": [
+        50.8,
+        100.4,
+        42.8
+      ],
+      "nominal_side_clearance_mm": 0.4
+    },
+    "large_4": {
+      "use_outer_mm": [
+        158.8,
+        102.4,
+        134.8
+      ],
+      "print_outer_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "cases": 4,
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "back_print_z_mm": [
+        0,
+        2
+      ],
+      "openings_print_direction": "+Z",
+      "bay_opening_mm": [
+        76.8,
+        100.4,
+        64.8
+      ],
+      "nominal_side_clearance_mm": 0.4
+    }
+  },
+  "mesh_statistics": {
+    "body_1x1": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.0,
+          100.0,
+          20.0
+        ]
+      ],
+      "dimensions_mm": [
+        24.0,
+        100.0,
+        20.0
+      ],
+      "volume_mm3": 14212.6913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    "body_2x1": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0,
+          20.0
+        ]
+      ],
+      "dimensions_mm": [
+        50.0,
+        100.0,
+        20.0
+      ],
+      "volume_mm3": 22099.7913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    "body_2x2": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0,
+          42.0
+        ]
+      ],
+      "dimensions_mm": [
+        50.0,
+        100.0,
+        42.0
+      ],
+      "volume_mm3": 37781.3913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    "body_3x3": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.0,
+          100.0,
+          64.0
+        ]
+      ],
+      "dimensions_mm": [
+        76.0,
+        100.0,
+        64.0
+      ],
+      "volume_mm3": 69129.2913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    "lid_1": {
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          22.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        21.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 3007.2547,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    "lid_2": {
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          48.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        47.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 7059.0694,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    "lid_3": {
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          74.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        73.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 11110.8841,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    "rack_test_2x2": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          54.8,
+          46.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        54.8,
+        46.8,
+        102.4
+      ],
+      "volume_mm3": 55457.791,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 76
+    },
+    "rack_narrow_36": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 327546.8718,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 588
+    },
+    "rack_short_18": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 282439.1598,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 300
+    },
+    "rack_medium_9": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 227355.7038,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 156
+    },
+    "rack_large_4": {
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 193380.3438,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 76
+    }
+  },
+  "checks": [
+    {
+      "test": "body_1x1 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          24.0,
+          100.0,
+          20.0
+        ]
+      ],
+      "dimensions_mm": [
+        24.0,
+        100.0,
+        20.0
+      ],
+      "volume_mm3": 14212.6913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    {
+      "test": "body_1x1 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "body_1x1 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          24.0,
+          100.0
+        ]
+      ]
+    },
+    {
+      "test": "body_1x1 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "body_2x1 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0,
+          20.0
+        ]
+      ],
+      "dimensions_mm": [
+        50.0,
+        100.0,
+        20.0
+      ],
+      "volume_mm3": 22099.7913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    {
+      "test": "body_2x1 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "body_2x1 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0
+        ]
+      ]
+    },
+    {
+      "test": "body_2x1 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "body_2x2 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0,
+          42.0
+        ]
+      ],
+      "dimensions_mm": [
+        50.0,
+        100.0,
+        42.0
+      ],
+      "volume_mm3": 37781.3913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    {
+      "test": "body_2x2 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "body_2x2 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          50.0,
+          100.0
+        ]
+      ]
+    },
+    {
+      "test": "body_2x2 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "body_3x3 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          76.0,
+          100.0,
+          64.0
+        ]
+      ],
+      "dimensions_mm": [
+        76.0,
+        100.0,
+        64.0
+      ],
+      "volume_mm3": 69129.2913,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 252
+    },
+    {
+      "test": "body_3x3 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "body_3x3 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          76.0,
+          100.0
+        ]
+      ]
+    },
+    {
+      "test": "body_3x3 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "lid_1 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          22.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        21.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 3007.2547,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    {
+      "test": "lid_1 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "lid_1 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          1.39999,
+          0.0
+        ],
+        [
+          22.6,
+          97.4
+        ]
+      ]
+    },
+    {
+      "test": "lid_1 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "lid_2 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          48.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        47.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 7059.0694,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    {
+      "test": "lid_2 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "lid_2 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          1.39999,
+          0.0
+        ],
+        [
+          48.6,
+          97.4
+        ]
+      ]
+    },
+    {
+      "test": "lid_2 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "lid_3 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          1.39999,
+          0.0,
+          0.0
+        ],
+        [
+          74.6,
+          97.4,
+          1.59999
+        ]
+      ],
+      "dimensions_mm": [
+        73.20001,
+        97.4,
+        1.59999
+      ],
+      "volume_mm3": 11110.8841,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 160
+    },
+    {
+      "test": "lid_3 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 0.0
+    },
+    {
+      "test": "lid_3 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          1.39999,
+          0.0
+        ],
+        [
+          74.6,
+          97.4
+        ]
+      ]
+    },
+    {
+      "test": "lid_3 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "rack_test_2x2 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          54.8,
+          46.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        54.8,
+        46.8,
+        102.4
+      ],
+      "volume_mm3": 55457.791,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 76
+    },
+    {
+      "test": "rack_test_2x2 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 3.8147e-07
+    },
+    {
+      "test": "rack_test_2x2 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          54.8,
+          46.8
+        ]
+      ]
+    },
+    {
+      "test": "rack_test_2x2 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "rack_narrow_36 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 327546.8718,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 588
+    },
+    {
+      "test": "rack_narrow_36 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 3.8147e-07
+    },
+    {
+      "test": "rack_narrow_36 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "rack_narrow_36 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "rack_short_18 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 282439.1598,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 300
+    },
+    {
+      "test": "rack_short_18 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 3.8147e-07
+    },
+    {
+      "test": "rack_short_18 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "rack_short_18 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "rack_medium_9 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 227355.7038,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 156
+    },
+    {
+      "test": "rack_medium_9 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 3.8147e-07
+    },
+    {
+      "test": "rack_medium_9 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "rack_medium_9 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "rack_large_4 solid",
+      "passed": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8,
+          102.4
+        ]
+      ],
+      "dimensions_mm": [
+        158.8,
+        134.8,
+        102.4
+      ],
+      "volume_mm3": 193380.3438,
+      "watertight": true,
+      "parts": 1,
+      "triangles": 76
+    },
+    {
+      "test": "rack_large_4 printable placement on Z=0",
+      "passed": true,
+      "min_z_mm": 3.8147e-07
+    },
+    {
+      "test": "rack_large_4 nonnegative print XY bounds",
+      "passed": true,
+      "xy_bounds_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          158.8,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "rack_large_4 nominal printer envelope with brim",
+      "passed": true
+    },
+    {
+      "test": "1x1 actual outer dimensions",
+      "passed": true
+    },
+    {
+      "test": "1x1 closed lid-body collision",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "1x1 continuous lid withdrawal clearance",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "1x1 geometric rear stop",
+      "passed": true,
+      "intersection_mm3": 18.81584948372248
+    },
+    {
+      "test": "1x1 dovetail lift capture",
+      "passed": true,
+      "intersection_mm3": 148.95549134200894
+    },
+    {
+      "test": "1x1 measured cavity walls",
+      "passed": true,
+      "measured_center_spans_mm": [
+        20.0,
+        93.2,
+        14.8
+      ]
+    },
+    {
+      "test": "1x1 full rectangular cavity",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "1x1 open cavity has no membrane",
+      "passed": true
+    },
+    {
+      "test": "1x1 measured lid rear gap",
+      "passed": true,
+      "rear_gap_mm": 0.3999999999999915
+    },
+    {
+      "test": "1x1 keeper head envelope",
+      "passed": true
+    },
+    {
+      "test": "2x1 actual outer dimensions",
+      "passed": true
+    },
+    {
+      "test": "2x1 closed lid-body collision",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x1 continuous lid withdrawal clearance",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x1 geometric rear stop",
+      "passed": true,
+      "intersection_mm3": 43.77564226973736
+    },
+    {
+      "test": "2x1 dovetail lift capture",
+      "passed": true,
+      "intersection_mm3": 148.95546767337797
+    },
+    {
+      "test": "2x1 measured cavity walls",
+      "passed": true,
+      "measured_center_spans_mm": [
+        46.0,
+        93.19999999999999,
+        14.799999999999999
+      ]
+    },
+    {
+      "test": "2x1 full rectangular cavity",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x1 open cavity has no membrane",
+      "passed": true
+    },
+    {
+      "test": "2x1 measured lid rear gap",
+      "passed": true,
+      "rear_gap_mm": 0.3999999999999914
+    },
+    {
+      "test": "2x1 keeper head envelope",
+      "passed": true
+    },
+    {
+      "test": "2x2 actual outer dimensions",
+      "passed": true
+    },
+    {
+      "test": "2x2 closed lid-body collision",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x2 continuous lid withdrawal clearance",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x2 geometric rear stop",
+      "passed": true,
+      "intersection_mm3": 43.775642269737446
+    },
+    {
+      "test": "2x2 dovetail lift capture",
+      "passed": true,
+      "intersection_mm3": 148.95546767337828
+    },
+    {
+      "test": "2x2 measured cavity walls",
+      "passed": true,
+      "measured_center_spans_mm": [
+        46.0,
+        93.2,
+        36.8
+      ]
+    },
+    {
+      "test": "2x2 full rectangular cavity",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "2x2 open cavity has no membrane",
+      "passed": true
+    },
+    {
+      "test": "2x2 measured lid rear gap",
+      "passed": true,
+      "rear_gap_mm": 0.3999999999999914
+    },
+    {
+      "test": "2x2 keeper head envelope",
+      "passed": true
+    },
+    {
+      "test": "3x3 actual outer dimensions",
+      "passed": true
+    },
+    {
+      "test": "3x3 closed lid-body collision",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "3x3 continuous lid withdrawal clearance",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "3x3 geometric rear stop",
+      "passed": true,
+      "intersection_mm3": 68.73543597127315
+    },
+    {
+      "test": "3x3 dovetail lift capture",
+      "passed": true,
+      "intersection_mm3": 148.95539166866214
+    },
+    {
+      "test": "3x3 measured cavity walls",
+      "passed": true,
+      "measured_center_spans_mm": [
+        72.0,
+        93.20000000000002,
+        58.79999999999999
+      ]
+    },
+    {
+      "test": "3x3 full rectangular cavity",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "3x3 open cavity has no membrane",
+      "passed": true
+    },
+    {
+      "test": "3x3 measured lid rear gap",
+      "passed": true,
+      "rear_gap_mm": 0.3999999999999914
+    },
+    {
+      "test": "3x3 keeper head envelope",
+      "passed": true
+    },
+    {
+      "test": "1x1 exported 45 degree rail found",
+      "passed": true
+    },
+    {
+      "test": "1x1 measured normal rail clearance",
+      "passed": true,
+      "per_face_mm": 0.2999884034485959
+    },
+    {
+      "test": "2x1 exported 45 degree rail found",
+      "passed": true
+    },
+    {
+      "test": "2x1 measured normal rail clearance",
+      "passed": true,
+      "per_face_mm": 0.2999884034485959
+    },
+    {
+      "test": "2x2 exported 45 degree rail found",
+      "passed": true
+    },
+    {
+      "test": "2x2 measured normal rail clearance",
+      "passed": true,
+      "per_face_mm": 0.2999884034485921
+    },
+    {
+      "test": "3x3 exported 45 degree rail found",
+      "passed": true
+    },
+    {
+      "test": "3x3 measured normal rail clearance",
+      "passed": true,
+      "per_face_mm": 0.2999884034485921
+    },
+    {
+      "test": "test_2x2 full solid back in first 2 mm above bed",
+      "passed": true,
+      "tested_back_slab_mm": [
+        [
+          0.001,
+          0.001,
+          0.001
+        ],
+        [
+          54.799,
+          46.799,
+          1.999
+        ]
+      ],
+      "missing_back_mm3": 0.0001633307711017551
+    },
+    {
+      "test": "test_2x2 every bay clear upward with no bridging roof",
+      "passed": true,
+      "tested_bays": 4,
+      "max_bay_obstruction_mm3": 0.0
+    },
+    {
+      "test": "test_2x2 upward rays escape every bay",
+      "passed": true,
+      "unobstructed_upward_rays": 4
+    },
+    {
+      "test": "test_2x2 regression rejects normalized back-on-top rack",
+      "passed": true,
+      "inverted_missing_back_mm3": 4122.593068769887,
+      "inverted_roof_obstruction_mm3": 1031.4976386125484
+    },
+    {
+      "test": "test_2x2 inverse gives upright rack at origin",
+      "passed": true,
+      "use_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          54.8,
+          102.4,
+          46.8
+        ]
+      ]
+    },
+    {
+      "test": "test_2x2 all closed cases and insertion sweeps clear rack",
+      "passed": true,
+      "cases": 4,
+      "max_intersection_mm3": 0
+    },
+    {
+      "test": "test_2x2 case resting on shelf clears rack",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "test_2x2 adjacent assembled cases do not collide",
+      "passed": true,
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "test": "narrow_36 full solid back in first 2 mm above bed",
+      "passed": true,
+      "tested_back_slab_mm": [
+        [
+          0.001,
+          0.001,
+          0.001
+        ],
+        [
+          158.799,
+          134.799,
+          1.999
+        ]
+      ],
+      "missing_back_mm3": 0.003364363597938791
+    },
+    {
+      "test": "narrow_36 every bay clear upward with no bridging roof",
+      "passed": true,
+      "tested_bays": 36,
+      "max_bay_obstruction_mm3": 0.0
+    },
+    {
+      "test": "narrow_36 upward rays escape every bay",
+      "passed": true,
+      "unobstructed_upward_rays": 36
+    },
+    {
+      "test": "narrow_36 regression rejects normalized back-on-top rack",
+      "passed": true,
+      "inverted_missing_back_mm3": 37103.347854575404,
+      "inverted_roof_obstruction_mm3": 1031.4979864824559
+    },
+    {
+      "test": "narrow_36 inverse gives upright rack at origin",
+      "passed": true,
+      "use_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          158.8,
+          102.4,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "narrow_36 all closed cases and insertion sweeps clear rack",
+      "passed": true,
+      "cases": 36,
+      "max_intersection_mm3": 0
+    },
+    {
+      "test": "narrow_36 case resting on shelf clears rack",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "narrow_36 adjacent assembled cases do not collide",
+      "passed": true,
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "test": "short_18 full solid back in first 2 mm above bed",
+      "passed": true,
+      "tested_back_slab_mm": [
+        [
+          0.001,
+          0.001,
+          0.001
+        ],
+        [
+          158.799,
+          134.799,
+          1.999
+        ]
+      ],
+      "missing_back_mm3": 0.003364363597938791
+    },
+    {
+      "test": "short_18 every bay clear upward with no bridging roof",
+      "passed": true,
+      "tested_bays": 18,
+      "max_bay_obstruction_mm3": 0.0
+    },
+    {
+      "test": "short_18 upward rays escape every bay",
+      "passed": true,
+      "unobstructed_upward_rays": 18
+    },
+    {
+      "test": "short_18 regression rejects normalized back-on-top rack",
+      "passed": true,
+      "inverted_missing_back_mm3": 38001.00801871169,
+      "inverted_roof_obstruction_mm3": 2112.994202302769
+    },
+    {
+      "test": "short_18 inverse gives upright rack at origin",
+      "passed": true,
+      "use_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          158.8,
+          102.4,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "short_18 all closed cases and insertion sweeps clear rack",
+      "passed": true,
+      "cases": 18,
+      "max_intersection_mm3": 0
+    },
+    {
+      "test": "short_18 case resting on shelf clears rack",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "short_18 adjacent assembled cases do not collide",
+      "passed": true,
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "test": "medium_9 full solid back in first 2 mm above bed",
+      "passed": true,
+      "tested_back_slab_mm": [
+        [
+          0.001,
+          0.001,
+          0.001
+        ],
+        [
+          158.799,
+          134.799,
+          1.999
+        ]
+      ],
+      "missing_back_mm3": 0.003364363597938791
+    },
+    {
+      "test": "medium_9 every bay clear upward with no bridging roof",
+      "passed": true,
+      "tested_bays": 9,
+      "max_bay_obstruction_mm3": 0.0
+    },
+    {
+      "test": "medium_9 upward rays escape every bay",
+      "passed": true,
+      "unobstructed_upward_rays": 9
+    },
+    {
+      "test": "medium_9 regression rejects normalized back-on-top rack",
+      "passed": true,
+      "inverted_missing_back_mm3": 39097.18912528153,
+      "inverted_roof_obstruction_mm3": 4348.106384919949
+    },
+    {
+      "test": "medium_9 inverse gives upright rack at origin",
+      "passed": true,
+      "use_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          158.8,
+          102.4,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "medium_9 all closed cases and insertion sweeps clear rack",
+      "passed": true,
+      "cases": 9,
+      "max_intersection_mm3": 0
+    },
+    {
+      "test": "medium_9 case resting on shelf clears rack",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "medium_9 adjacent assembled cases do not collide",
+      "passed": true,
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "test": "large_4 full solid back in first 2 mm above bed",
+      "passed": true,
+      "tested_back_slab_mm": [
+        [
+          0.001,
+          0.001,
+          0.001
+        ],
+        [
+          158.799,
+          134.799,
+          1.999
+        ]
+      ],
+      "missing_back_mm3": 0.003364363597938791
+    },
+    {
+      "test": "large_4 every bay clear upward with no bridging roof",
+      "passed": true,
+      "tested_bays": 4,
+      "max_bay_obstruction_mm3": 0.0
+    },
+    {
+      "test": "large_4 upward rays escape every bay",
+      "passed": true,
+      "unobstructed_upward_rays": 4
+    },
+    {
+      "test": "large_4 regression rejects normalized back-on-top rack",
+      "passed": true,
+      "inverted_missing_back_mm3": 39773.312766757925,
+      "inverted_roof_obstruction_mm3": 9952.714648320984
+    },
+    {
+      "test": "large_4 inverse gives upright rack at origin",
+      "passed": true,
+      "use_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        [
+          158.8,
+          102.4,
+          134.8
+        ]
+      ]
+    },
+    {
+      "test": "large_4 all closed cases and insertion sweeps clear rack",
+      "passed": true,
+      "cases": 4,
+      "max_intersection_mm3": 0
+    },
+    {
+      "test": "large_4 case resting on shelf clears rack",
+      "passed": true,
+      "intersection_mm3": 0.0
+    },
+    {
+      "test": "large_4 adjacent assembled cases do not collide",
+      "passed": true,
+      "minimum_axis_separation_mm": 2.0
+    },
+    {
+      "test": "body_1x1 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "body_2x1 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "body_2x2 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "body_3x3 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "lid_1 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "lid_2 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "lid_3 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "rack_test_2x2 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "rack_narrow_36 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "rack_short_18 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "rack_medium_9 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    },
+    {
+      "test": "rack_large_4 regenerated solid equivalence",
+      "passed": true,
+      "symmetric_difference_mm3": 0.0
+    }
+  ],
+  "passed": 148,
+  "total": 148
+}
